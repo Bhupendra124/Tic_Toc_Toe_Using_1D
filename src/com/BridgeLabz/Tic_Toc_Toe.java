@@ -139,9 +139,9 @@ public class Tic_Toc_Toe {
                     Tic_Toc_Toe ob = new Tic_Toc_Toe();
                    ob.PlayerSelection();
                     ob.GamePlay();
-
+                    ob.WhichPlayerWon();
                     ob.CheckWinOrDraw();
-                    ob.CheckWinOrDraw();
+                    //ob.CheckWinOrDraw();
                     ob.DrowBoard();
                 }
             }
